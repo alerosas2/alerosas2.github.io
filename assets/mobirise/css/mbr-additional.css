@@ -472,6 +472,13 @@ h6,
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#social-buttons4-16 .mbr-section-title,
+#social-buttons4-16 .btn-social {
+  color: #fff;
+}
+#social-buttons4-16 .mbr-section-title {
+  font-size: 36px;
+}
 #ext_menu-b .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -542,6 +549,13 @@ h6,
 #form1-c B {
   color: #ffffff;
 }
+#social-buttons4-17 .mbr-section-title,
+#social-buttons4-17 .btn-social {
+  color: #fff;
+}
+#social-buttons4-17 .mbr-section-title {
+  font-size: 36px;
+}
 #ext_menu-a .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -602,6 +616,27 @@ h6,
 #ext_menu-a .link[aria-expanded="true"],
 #ext_menu-a .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#features4-1d .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-1d .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+#header3-19 .mbr-section-title,
+#header3-19 .mbr-section-subtitle {
+  text-align: center;
+}
+#features7-1b .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-1b .iconbox {
+  background-color: #c0a375;
+  border-color: #c0a375;
+}
+#features2-1c .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
 }
 #ext_menu-8 .hide-buttons .nav-btn {
   display: none !important;
@@ -670,7 +705,40 @@ h6,
 #header6-d .mbr-section-text {
   color: #565656;
 }
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
+#features1-p .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
+}
 #content5-e .mbr-section-title,
 #content5-e p {
   color: #fff;
+}
+#content5-e P {
+  text-align: left;
+  color: #ffffff;
+}
+#testimonials3-u .mbr-section-title {
+  color: #efefef;
+}
+#testimonials3-u .mbr-author-name {
+  color: #ccc;
+}
+#header3-10 .mbr-section-title,
+#header3-10 .mbr-section-subtitle {
+  text-align: center;
+}
+#msg-box5-x H3 {
+  font-size: 32px;
+}
+#msg-box5-x P {
+  text-align: right;
+}
+#msg-box5-y H3 {
+  font-size: 36px;
+}
+#msg-box5-z H3 {
+  font-size: 36px;
 }
