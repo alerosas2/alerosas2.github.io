@@ -292,7 +292,8 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "color": "#efefef"
             }
           },
           "_params": {
