@@ -1,7 +1,7 @@
 {
   "settings": {
-    "currentPage": "quees.html",
-    "name": "ademeba",
+    "currentPage": "index.html",
+    "name": "LNCA",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -25,11 +25,11 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 50,
+    "uniqCompNum": 52,
     "versionPublish": "4.3.0",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global Site Tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-107597774-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-107597774-1');\r\n</script>\r\n",
     "cookiesAlert": ""
   },
   "pages": {
