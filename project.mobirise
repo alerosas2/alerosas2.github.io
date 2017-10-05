@@ -36,7 +36,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "HOME",
+        "title": "LNCA",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -233,10 +233,10 @@
             "twitter": "",
             "google": "",
             "youtube": "UCbedlhIMT62YOImN9Bzu8Og",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#cccccc",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/comments-bg.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
             "overlay": true,
             "overlayColor": "#c1c1c1",
             "overlayOpacity": "0.9"
@@ -1292,7 +1292,7 @@
             },
             "overlay": true,
             "overlayColor": "#ccc",
-            "overlayOpacity": "0.9"
+            "overlayOpacity": "0.8"
           },
           "media": {
             "image": {
@@ -1301,9 +1301,9 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "src": "https://www.youtube.com/watch?v=MrGgOb3VH4s",
               "aspectratio": "16:9",
-              "autoplay": false,
+              "autoplay": "on",
               "loop": false
             },
             "iconFont": {
