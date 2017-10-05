@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "quees.html",
     "name": "ademeba",
     "theme": {
       "name": "mobirise3",
@@ -2035,7 +2035,7 @@
           },
           "title": "1. Descarga la Convocatoria Oficial",
           "text": "Datos Básicos sobre la Liga\n<br>\n<br>La liga se divide en 10 zonas en TODO México. Dependiendo de tu zona, jugarás de 3 a 4 partidos una vez al mes en una sede diferente.\n<br><br>Empezando en Octubre hasta Abril se juega la temporada regular donde los equipos buscan clasificar dentro de los 3 mejores lugares de su zona para jugar las FINALES nacionales en Mayo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Descargar Convocatoria</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.lncab.mx/wp-content/uploads/2017/09/Convocatoria-LNCA-Temporada-2017-2018-1.pdf\" data-toolbar=\"-mbrBtnMove\">Descargar Convocatoria</a>",
           "_tags": [
             "Theme"
           ],
