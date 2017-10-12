@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "quees.html",
+    "currentPage": "index.html",
     "name": "LNCA",
     "theme": {
       "name": "mobirise3",
@@ -21,11 +21,12 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#2e2e2e"
+        "#2e2e2e",
+        "#266037"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 52,
+    "uniqCompNum": 57,
     "versionPublish": "4.3.0",
     "favicon": "",
     "noImageResize": "",
@@ -58,7 +59,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUE ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUÉ ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -116,8 +117,9 @@
               "src": "@PROJECT_PATH@/assets/images/logo-lnca.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "http://www.lncab.mx/",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -125,56 +127,9 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.lncab.mx/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0"
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "VIDEO SLIDE",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-4"
         },
         {
           "_params": {
@@ -187,32 +142,32 @@
             "timeout": 5,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/fondo-web-2000x1125.jpg",
+                "active": false,
                 "showButtons": false,
-                "showText": true,
+                "showText": false,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "BACKGROUND&nbsp;",
+                "title": "¡Ya casi inicia la 3era temporada!",
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/fondo-web-2-1920x1080.jpg",
+                "active": true,
                 "showButtons": true,
-                "showText": true,
+                "showText": false,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "BOOTSTRAP SLIDER",
+                "title": "¡Estamos bucando a los próximos campeones!",
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"quees.html#testimonials3-u\" data-toolbar=\"-mbrBtnMove\">Inscríbete</a> "
               }
             ]
           },
@@ -276,8 +231,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Direccion</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>Telefono</strong><br>(045) 442 269 44 11\n<br>(045) 442 404 60 12\n<br>(045) 442 157 13 63<br>",
+          "text1": "<strong>Dirección</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Teléfono</strong><br>(045) 442 269 44 11\n<br>(045) 442 404 60 12\n<br>(045) 442 157 13 63<br>",
           "text3": "<strong>Correos</strong><br>inscripciones@lncab.mx\n<br>soporte@lncab.mx\n<br>atencionaclientes@lncab.mx<br>",
           "_tags": [
             "Theme"
@@ -290,235 +245,6 @@
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "font-size": "36px",
-              "color": "#efefef"
-            }
-          },
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "text": "SIGUENOS",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-16"
-        }
-      ]
-    },
-    "contactanos.html": {
-      "settings": {
-        "meta_descr": "Web Page Creator Description",
-        "title": "Contactanos",
-        "order": 1
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUE ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-lnca.gif",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-b"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": false,
-            "labelsColor": "#ffffff",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Contactanos",
-          "subtitle": "<b>Shape your future web project with sharp design and refine coded functions.</b>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
-          "form": {
-            "action": "ale_rosas2@hotmail.com",
-            "alerts": {
-              "success": "Gracias por contactarnos!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Nombre de CLUB*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Correo*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Telefono*"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Mensaje"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-c",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            "B": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/rsz-logo-lnca.gif",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<strong>Direccion</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>Telefono</strong><br>(045) 442 269 44 11\n<br>(045) 442 404 60 12\n<br>(045) 442 157 13 63<br>",
-          "text3": "<strong>Correos</strong><br>inscripciones@lncab.mx\n<br>soporte@lncab.mx\n<br>atencionaclientes@lncab.mx<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-7"
-        },
-        {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "font-size": "36px"
             }
           },
           "_params": {
@@ -536,10 +262,10 @@
           "_tags": [
             "Theme"
           ],
-          "text": "SIGUENOS",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
+          "text": "SÍGUENOS",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/lncabasquetmx\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/lnca.mx\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/lncabmx/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
           "_name": "social-buttons4",
-          "_anchor": "social-buttons4-17"
+          "_anchor": "social-buttons4-1h"
         }
       ]
     },
@@ -547,7 +273,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Nosotros",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -565,7 +291,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUE ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUÉ ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -623,8 +349,9 @@
               "src": "@PROJECT_PATH@/assets/images/logo-lnca.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "http://www.lncab.mx/",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -632,25 +359,30 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.lncab.mx/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-a"
         },
         {
           "_styles": {
             ".card-subtitle": {
-              "color": "#bcbcbc"
+              "color": "#e25041",
+              "font-size": "25px"
             },
             ".iconbox": {
               "background-color": "#f2f2f2",
               "border-color": "#f2f2f2"
+            },
+            "H4": {
+              "font-size": "60px",
+              "color": "#e25041"
             }
           },
           "_params": {
             "showImages": false,
             "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
             "showButtons": false,
             "iconsBgColor": "#f2f2f2",
             "paddingTop": "3",
@@ -735,14 +467,14 @@
               "family": "et-line"
             }
           },
-          "title1": "# DE JUGADORES",
-          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "12000",
+          "subtitle1": "Jugadores Participando",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "# DE CLUBES",
-          "subtitle2": "One of Bootstrap 4's big points",
+          "title2": "1200",
+          "subtitle2": "Clubes Unidos",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "# DE CIUDADES",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "title3": "15",
+          "subtitle3": "Ciudades jugando",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
@@ -769,6 +501,9 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#e25041"
             }
           },
           "_params": {
@@ -777,7 +512,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "CLUBES",
+          "title": "Galería",
           "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
@@ -790,7 +525,7 @@
           "_params": {
             "showBullets": true,
             "fullWidth": true,
-            "spacing": "1",
+            "spacing": "2",
             "paddingTop": "0",
             "paddingBottom": 4,
             "filterBgColor": false,
@@ -799,85 +534,92 @@
             "filter": false,
             "images": [
               {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
                 "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6-2000x3000-800x1200.jpg",
                 "alt": "",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/11-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/11-2000x3000-800x1200.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
               },
               {
                 "tags": "Creative",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7-2000x3000-800x1200.jpg",
                 "alt": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "alt": "",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": false
               },
               {
                 "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-2000x1333-800x533.jpg",
                 "alt": "",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": false
               },
               {
-                "tags": "Beautiful",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fondo-web-4-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fondo-web-4-1920x1080-800x450.jpg",
                 "alt": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "alt": "",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": false
               },
               {
                 "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fondo-web-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fondo-web-2000x1125-800x450.jpg",
                 "alt": "",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/fondo-web-3-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fondo-web-3-1920x1080-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/fechas-lnca-1200x630.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fechas-lnca-1200x630-800x420.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
               }
             ]
           },
@@ -888,136 +630,6 @@
           "allItem": "All",
           "_name": "gallery2",
           "_anchor": "gallery2-18"
-        },
-        {
-          "_inherit": "features4",
-          "_params": {
-            "showImages": false,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false,
-            "iconsBgColor": "@primaryColor",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "2",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "phone",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "@primaryColor",
-              "border-color": "@primaryColor"
-            }
-          },
-          "title1": "MISION",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "VISION",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_name": "features7",
-          "_anchor": "features7-1b"
         },
         {
           "_inherit": "features1",
@@ -1090,7 +702,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#2e2e2e",
+            "columnsColor": "#266037",
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "2",
@@ -1107,10 +719,10 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title1": "MISION",
+          "title1": "MISIÓN",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "VISION",
+          "title2": "VISIÓN",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "title3": "Web Fonts",
@@ -1135,7 +747,7 @@
           "_anchor": "features2-1c",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+              "background-color": "#266037"
             }
           }
         }
@@ -1145,7 +757,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Que es",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1163,7 +775,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUE ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUÉ ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1221,8 +833,9 @@
               "src": "@PROJECT_PATH@/assets/images/logo-lnca.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "http://www.lncab.mx/",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1230,7 +843,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.lncab.mx/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-8"
         },
@@ -1247,12 +860,12 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": true,
             "showArrow": true,
             "imageSize": "70",
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/4-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -1262,7 +875,7 @@
             },
             "overlay": true,
             "overlayColor": "#ccc",
-            "overlayOpacity": "0.8"
+            "overlayOpacity": "0.9"
           },
           "media": {
             "image": {
@@ -1282,38 +895,14 @@
               "size": 250
             }
           },
-          "title": "Quienes somos?",
-          "text": "Full screen intro with youtube video.<br>Mobirise helps you cut down development time by providing you with a flexible website editor.",
+          "title": "¿Quiénes somos?",
+          "text": "¡Somos la liga nacional de clubes! Organizamos una competencia en todo el país con una duración de 8 meses.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header6",
           "_anchor": "header6-d"
-        },
-        {
-          "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/categoras-lnca-851x315.jpg",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-r"
         },
         {
           "_styles": {
@@ -1327,7 +916,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "Categorias",
+          "title": "Categorías",
           "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
@@ -1350,7 +939,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#cccccc",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1456,122 +1045,6 @@
               "background-color": "#2e2e2e"
             }
           }
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": false,
-            "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/u121-500x612.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/u14-500x612.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/u18-500x612.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/u20-500x612.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/u20-500x612.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "U12",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "U14",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "U16",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "U18",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "U20",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-v"
         },
         {
           "_params": {
@@ -1753,42 +1226,6 @@
           "_anchor": "gallery2-13"
         },
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            "P": {
-              "text-align": "left",
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#c1c1c1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
-          },
-          "title": "Como me inscribo",
-          "caption": "<p><b>1. Descarga la Convocatoria Oficial</b></p><p><span style=\"font-size: 1.07rem;\">Datos Básicos sobre la Liga</span></p><p><span style=\"font-size: 1.07rem;\"></span></p><p>La liga se divide en 10 zonas en TODO México. Dependiendo de tu zona, jugarás de 3 a 4 partidos una vez al mes en una sede diferente.\n</p><p><span style=\"font-size: 1.07rem;\">Empezando en Octubre hasta Abril se juega la temporada regular donde los equipos buscan clasificar dentro de los 3 mejores lugares de su zona para jugar las FINALES nacionales en Mayo.</span></p><p><span style=\"font-size: 1.07rem;\"><b>2. Completa la Carta de Intención\n</b></span></p><p><span style=\"font-size: 1.07rem;\">Descarga el formato de Carta de Intención y completa con todos tus datos.\n</span></p><p><span style=\"font-size: 1.07rem;\">Recuerda que la Liga tiene 5 categorías: U12, U14, U16, U18 y U20. Todas las categorías se juegan en ambas ramas, Varonil y Femenil. Una vez descargado el archivo PDF, lee con cuidado la información que te pide y completalo.\n</span></p><p><span style=\"font-size: 1.07rem;\">Cuando hayas completado el formato, guárdalo y envíalo por correo a inscripciones@lncab.mx o atencionaclientes@lncab.mx.</span></p><p><span style=\"font-size: 1.07rem;\"><b>3. Realiza el Pago\n</b></span></p><p><span style=\"font-size: 1.07rem;\">Una vez enviada la Carta de Intención, la LNCA te agregará al grupo de equipos de tu zona y tendrás que realizar el pago de la inscripción de tu equipo..\n</span></p><p><span style=\"font-size: 1.07rem;\">Asimismo se debe hacer el pago de las credenciales por jugador. Abajo tienes el \"BOTON\" para descargar la Ficha de Deposito y hacer tus pagos.</span></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-e"
-        },
-        {
           "_inherit": "testimonials1",
           "_styles": {
             ".mbr-section-title": {
@@ -1808,7 +1245,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1631x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1819,7 +1256,7 @@
           "_tags": [
             "Theme"
           ],
-          "title": "Como me inscribo",
+          "title": "Cómo me inscribo",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "testimonial": [
             {
@@ -1867,37 +1304,367 @@
           ],
           "_name": "testimonials3",
           "_anchor": "testimonials3-u"
+        }
+      ]
+    },
+    "contacto.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Contacto",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUÉ ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-lnca.gif",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://www.lncab.mx/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.lncab.mx/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-b"
         },
         {
-          "_inherit": "testimonials2",
           "_params": {
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": false,
-            "showName": false,
-            "showBio": false,
-            "count": 3,
+            "showSubTitle": false,
+            "labelsColor": "#ffffff",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.2
+            "overlayOpacity": "0.7"
+          },
+          "title": "Contacto",
+          "subtitle": "<b>Shape your future web project with sharp design and refine coded functions.</b>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
+          "form": {
+            "action": "ale_rosas2@hotmail.com",
+            "alerts": {
+              "success": "Gracias por contactarnos!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nombre de CLUB*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Correo*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telófono*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Ciudad, Categoría, Rama:"
+              }
+            }
           },
           "_tags": [
             "Theme"
           ],
-          "title": "Como me inscribo",
+          "_name": "form1",
+          "_anchor": "form1-c",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            "B": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/rsz-logo-lnca.gif",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Dirección</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Teléfono</strong><br>(045) 442 269 44 11\n<br>(045) 442 404 60 12\n<br>(045) 442 157 13 63<br>",
+          "text3": "<strong>Correos</strong><br>inscripciones@lncab.mx\n<br>soporte@lncab.mx\n<br>atencionaclientes@lncab.mx<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-7"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "SIGUENOS",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-17"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "meta_descr": "Web Maker Description",
+        "title": "Inscribete",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quees.html\">QUÉ ES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactanos.html\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-lnca.gif",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://www.lncab.mx/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.lncab.mx/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LNCA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1i"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1612x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "WHAT OUR FANTASTIC USERS SAY",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "testimonial": [
             {
               "authorName": "Abanoub S.",
               "authorBio": "User",
-              "text": "<p><b>1. Descarga la Convocatoria Oficial\n</b></p><p>Datos Básicos sobre la Liga\n</p><p>\n</p><p>La liga se divide en 10 zonas en TODO México. Dependiendo de tu zona, jugarás de 3 a 4 partidos una vez al mes en una sede diferente.\n</p><p>\n</p><p>Empezando en Octubre hasta Abril se juega la temporada regular donde los equipos buscan clasificar dentro de los 3 mejores lugares de su zona para jugar las FINALES nacionales en Mayo.</p>",
+              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -1911,7 +1678,7 @@
             {
               "authorName": "Suffian A.",
               "authorBio": "User",
-              "text": "<p><b>2. Completa la Carta de Intención\n</b></p><p>Descarga el formato de Carta de Intención y completa con todos tus datos.\n</p><p>\n</p><p>Recuerda que la Liga tiene 5 categorías: U12, U14, U16, U18 y U20. Todas las categorías se juegan en ambas ramas, Varonil y Femenil. Una vez descargado el archivo PDF, lee con cuidado la información que te pide y completalo.\n</p><p>Cuando hayas completado el formato, guárdalo y envíalo por correo a inscripciones@lncab.mx o atencionaclientes@lncab.mx.</p>",
+              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time design bootstrap builder in present web design world.”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -1925,7 +1692,7 @@
             {
               "authorName": "Jhollman C.",
               "authorBio": "User",
-              "text": "<p><b>3. Realiza el Pago\n</b></p><p>Una vez enviada la Carta de Intención, la LNCA te agregará al grupo de equipos de tu zona y tendrás que realizar el pago de la inscripción de tu equipo..\n</p><p>Asimismo se debe hacer el pago de las credenciales por jugador. Abajo tienes el \"BOTON\" para descargar la Ficha de Deposito y hacer tus pagos.</p>",
+              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -1937,202 +1704,45 @@
               }
             }
           ],
-          "_name": "testimonials4",
-          "_anchor": "testimonials4-w"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "title": "Como me inscribo",
-          "meta": "By John Smith posted July 20, 2016",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-10"
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-1k"
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "3",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
-          "media": {
+          "logo": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/rsz-logo-lnca.gif",
+              "width": 128,
               "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
               "link": "",
               "alt": "",
               "title": ""
             },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
               "link": "",
               "size": 0
             }
           },
-          "title": "1. Descarga la Convocatoria Oficial",
-          "text": "Datos Básicos sobre la Liga\n<br>\n<br>La liga se divide en 10 zonas en TODO México. Dependiendo de tu zona, jugarás de 3 a 4 partidos una vez al mes en una sede diferente.\n<br><br>Empezando en Octubre hasta Abril se juega la temporada regular donde los equipos buscan clasificar dentro de los 3 mejores lugares de su zona para jugar las FINALES nacionales en Mayo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.lncab.mx/wp-content/uploads/2017/09/Convocatoria-LNCA-Temporada-2017-2018-1.pdf\" data-toolbar=\"-mbrBtnMove\">Descargar Convocatoria</a>",
+          "text1": "<strong>Dirección</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Teléfono</strong><br>(045) 442 269 44 11\n<br>(045) 442 404 60 12\n<br>(045) 442 157 13 63<br>",
+          "text3": "<strong>Correos</strong><br>inscripciones@lncab.mx\n<br>soporte@lncab.mx\n<br>atencionaclientes@lncab.mx<br>",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-x",
-          "_styles": {
-            "H3": {
-              "font-size": "32px"
-            },
-            "P": {
-              "text-align": "right"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": "50",
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1612x1080.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "2. Completa la Carta de Intención",
-          "text": "Descarga el formato de Carta de Intención y completa con todos tus datos.\n<br>\n<br>Recuerda que la Liga tiene 5 categorías: U12, U14, U16, U18 y U20. Todas las categorías se juegan en ambas ramas, Varonil y Femenil. Una vez descargado el archivo PDF, lee con cuidado la información que te pide y completalo.\n<br>\n<br>\n<br>Cuando hayas completado el formato, guárdalo y envíalo por correo a inscripciones@lncab.mx o atencionaclientes@lncab.mx.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Descargar carta de intencion</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-y",
-          "_styles": {
-            "H3": {
-              "font-size": "36px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "3. Realiza el Pago",
-          "text": "Una vez enviada la Carta de Intención, la LNCA te agregará al grupo de equipos de tu zona y tendrás que realizar el pago de la inscripción de tu equipo..\n<br>\n<br>Asimismo se debe hacer el pago de las credenciales por jugador. Abajo tienes el \"BOTON\" para descargar la Ficha de Deposito y hacer tus pagos..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.lncab.mx/?post_type=product&amp;p=211&amp;preview=true\" data-toolbar=\"-mbrBtnMove\">Pagar</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-z",
-          "_styles": {
-            "H3": {
-              "font-size": "36px"
-            }
-          }
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j"
         }
       ]
     }
